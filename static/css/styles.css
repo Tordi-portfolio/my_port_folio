@@ -1,0 +1,410 @@
+body{
+    background: white;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#headerone img{
+    width:20%;
+    border-radius: 50%;
+}
+#headertwo ul{
+    display: flex;
+    flex-direction: column;
+}
+#headertwo ul li a i{
+    margin: 1px;
+}
+#heaertwo ul li a {
+    text-decoration: none;
+    transition: 2s ease;
+    padding: 10px;
+}
+#headertwo ul li{
+    list-style: none;
+}
+/* @media screen and (max-width: ) {
+    
+} */
+#headeropenmenu{
+    font-size: 40px;
+}
+#headerclosemenu i{
+    font-size: 40px;
+    display: none;
+}
+
+/* This is part is for the MAIN */
+main{
+    margin: 0;
+    padding: 0;
+}
+#mainimg{
+    text-align: center;
+}
+#mainimg img{
+    text-align: center;
+    width: 50%;
+    clip-path: circle(50%);
+
+}
+#mainimg ul {
+    display: flex;
+    padding-right: 30px;
+    justify-content: space-between;
+    margin-top: 0;
+}
+#mainimg ul li {
+    font-size: 50px;
+    list-style: none;
+}
+#mainimg ul li a {
+    text-decoration: none;
+}
+#mainimg ul li a i {
+    font-size: 30px;
+}
+#mainone #mainname {
+    font-size: 33px;
+    margin-top: 0;
+    margin-top: 0;
+}
+#mainone #mainjob {
+    font-size: 15px;
+    margin-top: 0;
+}
+#mainjoin {
+    margin-top: 200px;
+    text-align: center;
+}
+#maintwo h2{
+    text-align: center;
+    margin: 50px;
+}
+#socialmedia{
+    display: flex;
+    display: center;
+}
+#maintwo img{
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+}
+#maintwo #courses{
+    text-align: center;
+}
+#maintwo #courses ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    text-align: center;
+}
+#maintwo #courses ul li {
+    list-style: none;
+    padding-right: 30px;
+    margin: 10px;
+}
+#maintwo #courses ul li i {
+    font-size: 40px;
+    padding: 10px;
+}
+#maintwoone{
+    font-size:80px;
+    text-align: center;
+}
+#firsteducation li{
+    margin: 10px;
+    padding: 5px;
+}
+#buttonnav {
+    text-align: center;
+}
+#buttonnav button {
+    background: #000; 
+    text-align: center;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+#buttonnav button:hover{
+    color: #000;
+    background: #ccc;
+}
+
+/* This is for MAINTHREE */
+#mainthree{
+    text-align: center;
+    background: #c6c6c6;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.mainthree{
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.mainthree i{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 5px;
+
+}
+#mainfour{
+    text-align: center;
+}
+
+/* This s for MAINFOUR */
+#mainfour{
+    background: #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+#mainfour #mainfourtwo{
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#mainfour #mainfourtwo img {
+    width: 80%;
+}
+#mainfour form{
+    background: #c6c6c6;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#mainfour form input {
+    padding: 20px 80px 20px 15px;
+    border: none;
+    border-radius: 10px;
+}
+#mainfour form input:hover {
+    background: #000;
+    color: #ccc;
+}
+#mainfour form button {
+    padding: 20px 80px 20px 80px;
+    border: none;
+    border-radius: 10px;
+}
+#mainfour form button:hover {
+    background: #000;
+    color: #ccc;
+}
+
+
+
+/* Media query for Samsung Galaxy S9+ */
+/* CSS styles specific to Samsung Galaxy S9+ */
+@media only screen and (max-width: 658px) and (min-width: 320px) {
+    header #headerone img {
+        width: 100px;
+    }
+    header #displaynavigator ul li i a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+/* Media query for Samsung Galaxy S8 */
+/* CSS styles specific to Samsung Galaxy S8 */
+@media only screen and (max-width: 740px) and (min-width: 360px) {
+}
+
+/* Media query for Samsung Galaxy tab */
+/* CSS styles specific to Samsung Galaxy tab */
+@media only screen and (max-width: 1138px) and (min-width: 712px) {
+    header #headerone img {
+        width: 150px;
+    }
+    header {
+        font-size: 30px;
+    }
+    header #headeropenmenu i {
+        font-size: 60px;
+        padding: 10px;
+    }
+    header #displaynavigator i{
+        font-size: 40px;
+        padding: 10px;
+    }
+    header #headerclosemenu i{
+        font-size: 60px;
+    }
+    #mainone #mainname{
+        font-size: 50px;
+    }
+    #mainone #mainjob{
+        font-size: 24px;
+    }
+
+    /* MAINTWO */
+    #maintwo {
+        font-size: 25px;
+    }
+
+    /* MAINTHREE */
+    #mainthree{
+        font-size: 25px;
+    }
+
+    /* MAINFOUR */
+    #mainfour{
+        font-size: 25px;
+    }
+
+    /* FORM */
+    #mainfourthree form input{
+        font-size: 25px;
+    }
+    #mainfourthree form button {
+        font-size: 25px;
+    }
+}
+
+/* Media query for Samsung Galaxy s20 ultra */
+/* CSS styles specific to Samsung Galaxy s20 ultra */
+@media only screen and (max-width: 915px) and (min-width: 412px) {
+    header #headerone img {
+        width: 130px;
+    }
+    header {
+        font-size: 30px;
+    }
+    header #headeropenmenu i {
+        font-size: 50px;
+        padding: 10px;
+    }
+    header #displaynavigator i{
+        font-size: 20px;
+        padding: 10px;
+    }
+    header #headerclosemenu i{
+        font-size: 50px;
+    }
+    #mainone #mainname{
+        font-size: 40px;
+    }
+    #mainone #mainjob{
+        font-size: 20px;
+    }
+
+    /* MAINTWO */
+    #maintwo {
+        font-size: 20px;
+    }
+
+    /* MAINTHREE */
+    #mainthree{
+        font-size: 20px;
+    }
+
+    /* MAINFOUR */
+    #mainfour{
+        font-size: 30px;
+    }
+
+    /* FORM */
+    #mainfourthree form input{
+        font-size: 20px;
+    }
+    #mainfourthree form button {
+        font-size: 20px;
+    }
+}
+
+/* Media query for iPhone 6/7/8 */
+/* CSS styles specific to iPhone 6/7/8 */
+@media only screen and (max-width: 667px) and (min-width: 414px) {
+    header #headerone img {
+        width: 110px;
+    }
+    header {
+        font-size: 30px;
+    }
+    header #headeropenmenu i {
+        font-size: 40px;
+    }
+    header #displaynavigator i{
+        font-size: 20px;
+        padding: 10px;
+    }
+    header #displaynavigator {
+        font-size: 25px;
+    }
+    header #headerclosemenu i{
+        font-size: 40px;
+    }
+    #mainone #mainname{
+        font-size: 40px;
+    }
+    #mainone #mainjob{
+        font-size: 20px;
+    }
+
+    /* MAINTWO */
+    #maintwo {
+        font-size: 20px;
+    }
+
+    /* MAINTHREE */
+    #mainthree{
+        font-size: 20px;
+    }
+
+    /* MAINFOUR */
+    #mainfour{
+        font-size: 30px;
+    }
+
+    /* FORM */
+    #mainfourthree form input{
+        font-size: 20px;
+    }
+    #mainfourthree form button {
+        font-size: 20px;
+    }
+}
+
+
+
+    /* Media query for ALL laptops */
+    /* CSS styles specific All laptops */
+    @media only screen and (max-width: 1920px) and (min-width: 1366px){
+        header #headerone img {
+            width: 30%;
+        }
+        #mainone #mainimg {
+            width: 50%;
+            padding-left: 370px;
+        }
+        header #headertwo #displaynavigator {
+            font-size: 20px;
+        }
+    }
+
+    /* Media query for HP CORE I5 6/7/8 */
+    /* CSS styles specific to HP CORE I5 6/7/8 */
+    @media only screen and (max-width: 1600px) and (min-width: 900px){
+        header #headerone img {
+            width: 30%;
+        }
+        #mainone #mainimg {
+            width: 50%;
+            padding-left: 370px;
+        }
+    } 
+
+    /* Media query for samsung galaxy ao3s and a10 */
+    /* CSS styles specific to samsung galaxy ao3s and a10 */
+    @media only screen and (max-width: 720px) and (min-width: 320px) {
+        header #headertwo #displaynavigator {
+            font-size: 15px;
+        }
+    }

@@ -6,6 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Professional Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     :root {
       --bg-color: #0e0e0e;
@@ -154,6 +155,25 @@
       padding: 20px;
       font-size: 14px;
     }
+
+    .social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
   </style>
 </head>
 <body>
@@ -179,6 +199,14 @@
       <p>Full Stack Developer & Web Designer</p>
     </section>
 
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="https://github.com/tordi_portfolio" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/web.dev.01" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/techwithtordi" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://facebook.com/profile.php?id=61557514029257" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/2347068848255" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
 
     <section id="about">
       <h2>About Me</h2>

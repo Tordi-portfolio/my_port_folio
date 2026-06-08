@@ -308,6 +308,43 @@
       border-color:var(--accent-color);
     }
 
+    /* MOBILE PHONES (most phones) */
+/* MOBILE PHONES (most phones) */
+@media (max-width: 768px) {
+
+  /* CERTIFICATES MOBILE HORIZONTAL SCROLL */
+  #certificates .certificates{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 10px;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #certificates .certificates li{
+    flex: 0 0 auto;
+    width: 80%;
+    scroll-snap-align: center;
+    list-style: none;
+  }
+
+  #certificates .certificates img{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  /* hide scrollbar */
+  #certificates .certificates::-webkit-scrollbar{
+    display: none;
+  }
+
+}
+
     /* CONTACT */
 
     #contact p{
